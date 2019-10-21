@@ -189,11 +189,11 @@ A ```docker-compose build``` will run into  following situation:
 |Build|Target Stage|Stage 1|Stage 2|Final Stage|
 |-----|------------|-------|-------|-----------|
 | initial | stage1 | built | - | - |
-| initial | stage2 | <span style="color:red">built</span> | built | - |
+| initial | stage2 | :heavy_exclamation_mark:built | built | - |
 | initial | final | cached | cached | built |
 | subsequent | stage1 | cached | - | - |
 | subsequent | stage2 | cached | cached | - |
-| subsequent | stage2 | cached | cached | <span style="color:red">built</span> |
+| subsequent | stage2 | cached | cached | :heavy_exclamation_mark:built |
 
 > All red marked builds are not intended!
 
@@ -227,7 +227,7 @@ A ```docker-compose build``` will run into  following situation:
 |Build|Target Stage|Stage 1|Stage 2|Final Stage|
 |-----|------------|-------|-------|-----------|
 | initial | stage1 | built | - | - |
-| initial | stage2 | <span style="color:red">built</span> | built | - |
+| initial | stage2 | :heavy_exclamation_mark:built | built | - |
 | initial | final | cached | cached | built |
 | subsequent | stage1 | cached | - | - |
 | subsequent | stage2 | cached | cached | - |
