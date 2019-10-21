@@ -2,16 +2,16 @@ Mastering Multi-Stage Builds
 ----------------------------
 
 # 1. Table of Contents
-[1. Table of Contents](#1-table-of-contents)\
-[2. Intentions](#2-intentions)\
-&nbsp; &nbsp; [2.1. Purging Secrets](#21-purging-secrets)\
-&nbsp; &nbsp; [2.2. Unsequencing Layers](#22-unsequencing-layers)\
-[3. Using Images as Layer Cache](#3-using-images-as-layer-cache)\
-[4. Everything is About Efficiency (Caching)](#4-everything-is-about-efficiency-caching)\
-&nbsp; &nbsp; [4.1. First Guess](#41-first-guess)\
+[1. Table of Contents](#user-content-1-table-of-contents)\
+[2. Intentions](#user-content-2-intentions)\
+&nbsp; &nbsp; [2.1. Purging Secrets](#user-content-21-purging-secrets)\
+&nbsp; &nbsp; [2.2. Unsequencing Layers](#user-content-22-unsequencing-layers)\
+[3. Using Images as Layer Cache](#user-content-3-using-images-as-layer-cache)\
+[4. Everything is About Efficiency (Caching)](#user-content-4-everything-is-about-efficiency-caching)\
+&nbsp; &nbsp; [4.1. First Guess](#user-content-41-first-guess)\
 &nbsp; &nbsp; [4.2. Wrongly Matched Layers](#user-content-42-wrongly-matched-layers)\
-&nbsp; &nbsp; [4.3. Be Accurate with ```from-cache```](#43-be-accurate-with-from-cache)\
-[5. Conclusion](#5-conclusion)
+&nbsp; &nbsp; [4.3. Be Accurate with ```from-cache```](#user-content-43-be-accurate-with-from-cache)\
+[5. Conclusion](#user-content-5-conclusion)
 
 # 2. Intentions
 
