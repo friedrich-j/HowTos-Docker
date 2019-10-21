@@ -9,9 +9,9 @@ Mastering Multi-Stage Builds
 [3. Using Images as Layer Cache](#3-using-images-as-layer-cache)\
 [4. Everything is About Efficiency (Caching)](#4-everything-is-about-efficiency-caching)\
 &nbsp; &nbsp; [4.1. First Guess](#41-first-guess)\
-&nbsp; &nbsp; [4.2. Wrongly Matched Layers](#42-wrongly-matched-layers)\
+&nbsp; &nbsp; [4.2. Wrongly Matched Layers](#user-content-42-wrongly-matched-layers)\
 &nbsp; &nbsp; [4.3. Be Accurate with ```from-cache```](#43-be-accurate-with-from-cache)\
-[7. Conclusion](#7-conclusion)
+[5. Conclusion](#5-conclusion)
 
 # 2. Intentions
 
